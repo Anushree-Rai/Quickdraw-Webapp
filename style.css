@@ -1,0 +1,35 @@
+body
+{
+    background-color: rgb(175, 225, 238);
+}
+h1
+{
+    color: rgb(7, 62, 107);
+    background-color: rgb(175, 225, 238);
+    font-family: 'Times New Roman';
+}
+#show_sketch
+{
+    float:right;
+    width: 40px;
+    height: 20px;
+}
+canvas
+{
+    border: 5px solid rgb(21, 84, 160);
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px rgb(69, 211, 236);}
+    to{box-shadow: 1px 1px 38px rgb(29, 131, 214);}
+}
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Times New Roman';
+}
